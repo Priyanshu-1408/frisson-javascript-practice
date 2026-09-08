@@ -14,7 +14,7 @@ function check(str1 , str2){
 
     let add = str1 + str1;
 
-    let ans = add.includes(str1);
+    let ans = add.includes(str2);
 
     return ans;
 
