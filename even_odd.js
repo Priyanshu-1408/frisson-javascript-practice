@@ -1,4 +1,9 @@
 function check(no){
+
+    if(typeof no != Number){
+        return "erorrrrrrrr";
+    }
+
     if(no%2==0){
         return "even"
         
@@ -7,6 +12,6 @@ function check(no){
         
     }
 }
- 
+ ""
 let ans = check(10);
 console.log(ans);
