@@ -5,10 +5,10 @@ function prime(no){
 
     for(let i=2;i<no;i++){
         if(no%i == 0){
-            return "prime"
+            return " not prime"
         }
     }
-    return "not prime";
+    return "prime";
 }
 
 console.log(prime(5));
