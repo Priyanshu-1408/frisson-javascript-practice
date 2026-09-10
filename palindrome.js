@@ -8,6 +8,10 @@ while(i<str.length){
         console.log("not palindrome");
         return
     }
-    console.log("palindrome");
-    return
+    // console.log("palindrome");
+    i++;
+    j--;
+    // return
 }
+
+console.log("palindromee");
