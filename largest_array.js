@@ -1,12 +1,12 @@
 function maximum(arr){
-    let min = -Infinity;
+    let max = -Infinity;
 
     for(let i=0;i<arr.length;i++){
         if(arr[i] > min){
-            min = arr[i];
+            max = arr[i];
         }
     }
-    return min;
+    return max;
 }
 
 let arr = [1,3,4,3,8,19,455,166,4];
