@@ -12,3 +12,6 @@ let newFal = myMap(fal,function(s){
 for(let i=0;i<newFal.length;i++){
     console.log(newFal[i]);
 }
+
+
+// ello world
