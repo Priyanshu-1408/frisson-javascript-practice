@@ -1,6 +1,8 @@
 
 // Check whether one string is a rotation of another.
 
+import { MyIncludes } from "./includes.js";
+
 // Input:
 
 // "waterbottle"
@@ -13,8 +15,8 @@ function check(str1 , str2){
     }
 
     let add = str1 + str1;
-
-    let ans = add.includes(str2);
+    // let ans = add.includes(str2);
+    let ans = MyIncludes(add, str2);
 
     return ans;
 
@@ -27,5 +29,3 @@ function check(str1 , str2){
 let str1 = "waterbottle";
 let str2 = "erbottlewat";
 console.log(check(str1 , str2))
-
-
