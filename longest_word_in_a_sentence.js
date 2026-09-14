@@ -1,6 +1,9 @@
+import { MySplit } from "./split.js";
+
 let sentence = "my name is priyanshu";
 
-let words = sentence.split(" ");
+// let words = sentence.split(" ");
+let words = MySplit(sentence, " ")
 
 console.log(words);
 
