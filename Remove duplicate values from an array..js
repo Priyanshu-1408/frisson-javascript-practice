@@ -1,3 +1,5 @@
+import { myPush } from "./push.js";
+
 let arr = [1, 2, 2, 3, 4, 3, 5];
 
 let result = [];
@@ -15,7 +17,8 @@ for (let i = 0; i < arr.length; i++) {
     }
 
     if (alreadyExists === false) {
-        result.push(arr[i]);
+        
+        myPush(result,arr[i]);
     }
 }
 
