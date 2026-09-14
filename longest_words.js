@@ -1,6 +1,9 @@
+import { MySplit } from "./split.js";
+
 const str = "priyansshu gaurav amannnnnnnnnnn aditya";
 
-const words = str.split(' ');
+// const words = str.split(' ');
+const words = MySplit(str , " ")
 
 let longest = "";
 
@@ -11,3 +14,4 @@ for (let i = 0; i < words.length; i++) {
 }
 
 console.log(longest);
+
