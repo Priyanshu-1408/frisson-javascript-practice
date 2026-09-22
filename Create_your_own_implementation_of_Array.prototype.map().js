@@ -10,3 +10,6 @@ export function myMap(arr, callback) {
 
     return result;
 }
+
+
+// isme thoda doubt hai 
