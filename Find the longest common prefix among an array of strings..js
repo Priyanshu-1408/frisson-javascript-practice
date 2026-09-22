@@ -1,6 +1,6 @@
 import { MyIncludes } from "./includes.js";
 
-let str = "abcabcbb";
+let str = "abcdabcdebb";
 
 let longest = "";
 
@@ -25,3 +25,7 @@ for (let i = 0; i < str.length; i++) {
 
 console.log(longest);
 console.log(longest.length);
+
+
+
+// isko ek baar reieecc krna padegaa  
