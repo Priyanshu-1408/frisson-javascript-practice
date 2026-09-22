@@ -1,11 +1,12 @@
 let arr = [1, 2, 3, 2, 4, 3, 5]
 
 let frequency = {};
-let duplicates = [];
+// let duplicates = [];
 
 for (let element of arr) {
     if (frequency[element]) {
         frequency[element]++;
+        console.log(frequency[element])
     } else {
         frequency[element] = 1;
     }
