@@ -8,8 +8,8 @@ export function myFilter(arr, fn) {
     for (let i = 0; i < arr.length; i++) {
 
         if (fn(arr[i])) {
-            result.push(arr[i]);
-            // myPush(result,arr[i]);
+            // result.push(arr[i]);
+            myPush(result,arr[i]);
         }
     }
 
