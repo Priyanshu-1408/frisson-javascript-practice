@@ -1,6 +1,18 @@
 const arr1 = [1, 2, 3, 4];
 const arr2 = [3, 4, 5, 6];
 
-const intersection = arr1.filter(num => arr2.includes(num));
+let intersection = [];
+
+for (let i = 0; i < arr1.length; i++) {
+
+    for (let j = 0; j < arr2.length; j++) {
+
+        if (arr1[i] === arr2[j]) {
+            intersection[intersection.length] = arr1[i];
+            
+        }
+
+    }
+}
 
 console.log(intersection);
