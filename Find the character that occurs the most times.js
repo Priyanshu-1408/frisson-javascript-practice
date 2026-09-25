@@ -1,7 +1,13 @@
-let str = "hello world";
+const str = "hello world";
+
+
 
 let maxChar = "";
 let maxCount = 0;
+
+if (str.length === 0) {
+    console.log(maxChar);
+}
 
 for (let i = 0; i < str.length; i++) {
 
@@ -20,4 +26,3 @@ for (let i = 0; i < str.length; i++) {
     }
 }
 
-console.log(maxChar); 
