@@ -1,4 +1,4 @@
-let arr = [1, 3, 2, 1, 4, 1, 3, 2];
+const arr = [1, 3, 2, 1, 4, 1, 3, 2];
 
 let mostFrequent = arr[0];
 let maxCount = 0;
